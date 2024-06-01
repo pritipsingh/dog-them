@@ -1,4 +1,4 @@
-import React from 'react'
+
 import dog from './dog1.png'
 const Home = () => {
   return (

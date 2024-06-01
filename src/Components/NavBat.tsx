@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 import { BsGlobeAmericas } from "react-icons/bs";
 import { TiHomeOutline } from "react-icons/ti";
