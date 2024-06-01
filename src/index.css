@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+
+  --color-background: #ffffff;
+  --color-text: #000000;
+  --color-navbar: #ADD8E6;
+}
+
+[data-theme="dark"]{
+  --color-background: #000000;
+  --color-text: #ffffff;
+  --color-navbar: #000080;
+}
+
+[data-theme="light"]{
+  --color-background: #ffffff;
+  --color-text: #000000;
+  --color-navbar: #ADD8E6;
+}
+
+body{
+  margin:0 ;
+  padding: 0;
+}
